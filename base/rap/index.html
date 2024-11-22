@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style></style>
+    <title>Musical Bird</title>
+    
+    <script>
+      window.player = new Audio();
+      
+    </script>
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/birdy%20musical.jpg?v=1653481358820"
+    />
+  </head>
+  <header>
+    <h1 id="top">Musical Bird</h1>
+    <link rel="stylesheet" href="/style.css" />
+  </header>
+  <img
+    src="https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/birdy%20musical.jpg?v=1653481358820"
+  />
+  <body>
+    <br><button onclick="window.player.pause()" class="otherbutton">Stop   </button><br>
+      <button class="repeat">Repeat</button>
+   </div>
+  </label>
+
+    
+    <h3 id="Custom">Rap Songs</h3>
+    <ol>
+      <li>
+        Violet (by Connor Price and Killa)
+        <button
+          onclick="window.player.src = '/songs/Violet.mp3'; window.player.play()"
+        >
+          Click me to Listen!
+        </button>
+ 
+      </li><br><li>
+        Spinnin (by Connor Price and Bens)
+        <button
+          onclick="window.player.src = '/songs/Spinnin.mp3'; window.player.play()"
+          >
+            Click me to Listen!
+          </button>
+      </li><br><li>
+        Chuck Taylor (by Connor Price and SIRI)
+        <button
+          onclick="window.player.src = '/songs/ChuckTaylor.mp3'; window.player.play()"
+          >
+            Click me to Listen!
+          </button>
+      </li><br><li>
+        DIP (by Connor Price and Kazuo) <button onclick="window.player.src = '/songs/DIP.mp3'; window.player.play()">Click me to Listen!</button>
+      </li><br><li>
+        Blue Shell (by Connor Price and K.Keed) <button onclick="window.player.src = '/songs/BlueShell.mp3'; window.player.play()">Click me to Listen!</button>
+      </li><br><li>
+        False Alarm (by Connor Price and Lucca DL) <button onclick="window.player.src = '/songs/FalseAlarm.mp3'; window.player.play()">Click me to Listen!</button>
+      </li><br><li>
+        Drop (by Connor Price and Zensery) <button onclick="window.player.src = '/songs/Drop.mp3'; window.player.play()">Click me to Listen!</button>
+      </li><br><li>
+        Globe Cypher (by Connor Price, Killa, SIRI, Bens, Kazuo, Lucca DL, Zensery and K.Keed) <button onclick="window.player.src = '/songs/GlobeCypher.mp3'; window.player.play()">Click me to Listen!</button>
+      </li><br>
+      
+        <br><br> 
+    </ol>
+      <a href="https://musicalbird.replit.app"><button>
+        HOME
+        </button></a>
+    <script>if (typeof window.player.loop == 'boolean')
+{
+    window.player.loop = true;
+}
+else
+{
+    myAudio.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+    }, false);
+}</script>
+      <script src="script.js"></script>
+    </ol>
+  </body>
+</html>

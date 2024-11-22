@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style></style>
+    <title>Musical Bird</title>
+    
+    <script>
+      window.player = new Audio();
+      
+    </script>
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/birdy%20musical.jpg?v=1653481358820"
+    />
+  </head>
+  <header>
+    <h1 id="top">Musical Bird</h1>
+    <link rel="stylesheet" href="/style.css" />
+  </header>
+  <img
+    src="https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/birdy%20musical.jpg?v=1653481358820"
+  />
+  <body>
+    <br><button onclick="window.player.pause()" class="otherbutton">Stop   </button><br>
+      <button class="repeat">Repeat</button>
+   </div>
+  </label>
+
+    
+    <h3 id="Custom">Custom added songs</h3>
+    <ol>
+      <li>
+        Scars in heaven (by Casting Crowns)
+        <button
+          onclick="window.player.src = 'https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/Casting Crowns Scars in Heaven.mp3?v=1653459300202'; window.player.play()"
+        >
+          Click me to Listen!
+        </button>
+        <footer>I listened to this on the radio one night, and ever since then it has been my sleeping song</footer>
+      </li>
+      <br /><br />
+      <li>
+        Dandelions (by Ruth B)
+        <button
+          onclick="window.player.src = 'https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/Ruth%20B.%20-%20Dandelions%20(Audio).mp3.crdownload?v=1655280696181'; window.player.play()"
+        >
+          Click me to Listen!
+        </button>
+        <footer>I got this song from my friend while she is playing her Spotify</footer>
+      </li>
+      <br /><br />
+      <li>
+        Back in Time (Cover by Kezia Amelia from "The Moon that Embraces the
+        Sun")
+        <button
+          onclick="window.player.src = 'https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/Back In Time.mp3?v=1655282296291'; window.player.play()"
+        >
+          Click me to Listen!
+        </button>
+        <footer>My mom found this song and ever since then it has become one of the calmest songs on this website</footer>
+      </li>
+      <br /><br />
+      <li>
+      Havana (note blocks by Itsdooptechboi)
+        <button onclick="window.player.src = 'https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/Havana%20Combined.mp3?'; window.player.play()"                >Click me to Listen</button><footer>I made this song from 3 .mid files of the actual song</footer>      </li>
+      <br><br>
+      <li>
+      Bam Bam (by Camila Cabello feat Ed Sheeran)
+        <button onclick="window.player.src = 'https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/Camila%20Cabello%20-%20Bam%20Bam%20(Lyrics)%20ft.%20Ed%20Sheeran.mp3?'; window.player.play()">Click me to Listen!</button><footer>I found this song while browsing Ed Sheeran's songs</footer></li>
+      <br><br>
+      <li>
+        Peru (by Fireboy DML and Ed Sheeran)
+      <button onclick="window.player.src = 'https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/Fireboy%20DML%20%26%20Ed%20Sheeran%20-%20Peru%20(Letra_Lyrics).mp3?'; window.player.play()">Click me to Listen!</button><footer>I also found this song while browsing Ed Sheeran's songs</footer></li>
+        <br><br> 
+    </ol>
+      <a href="https://musicalbird.replit.app"><button>
+        HOME
+        </button></a>
+    <script>if (typeof window.player.loop == 'boolean')
+{
+    window.player.loop = true;
+}
+else
+{
+    myAudio.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+    }, false);
+}</script>
+      <script src="script.js"></script>
+    </ol>
+  </body>
+</html>

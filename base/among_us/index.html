@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style></style>
+    <title>Musical Bird</title>
+    <script>
+      window.player = new Audio();
+      
+    </script>
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/birdy%20musical.jpg?v=1653481358820"
+    />
+  </head>
+  <header>
+    <h1 id="top">Musical Bird</h1>
+    <link rel="stylesheet" href="/style.css" />
+  </header>
+  <img
+    src="https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/birdy%20musical.jpg?v=1653481358820"
+  /><br>
+  
+  <body>
+      <br><button onclick="window.player.pause()" class="otherbutton">Stop   </button><br>
+    <button class="repeat">Repeat</button><br>
+    <h3 id="amogus">Among Us songs</h3>
+    <ol>
+      <li>
+        Show Yourself (by CG5)
+        <button
+          onclick="window.player.src = 'https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/Show%20Yourself%20-%20Among%20Us%20Song.mp3?v=1653382451401'; window.player.play()"
+        >
+          Click me to Listen!
+        </button>
+      </li>
+      <br /><br />
+      <li>
+        Lyin 2 Me (by CG5)
+        <button
+          onclick="window.player.src = 'https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/Lyin TO Me - Among Us Song.mp3?v=1653384006461'; window.player.play()"
+        >
+          Click me to Listen!
+        </button>
+        <footer>this song was my favorite when i was browsing for among us songs</footer>
+      </li>
+      <br /><br />
+      <li>
+        It ain't me (by Chewiecatt)
+        <button
+          onclick="window.player.src = 'https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/Chewiecatt it aint me.mp3?v=1653389875633'; window.player.play()"
+        >
+          Click me to Listen!
+        </button>
+        <footer>i found this song when i was browsing for among us songs</footer>
+      </li>
+      <br /><br />
+      <li>
+        The Among Us Rap Battle 1h (by NerdOut)
+        <button
+          onclick="window.player.src = 'https://cdn.glitch.me/f588e1b4-da55-4c30-8f03-14d86c03703f/amogus.mp3?v=1655303176304'; window.player.play()"
+        >
+          Click me to Listen!
+        </button>
+        <footer>
+        i found this song when i was browsing for among us songs
+        </footer></li>
+      <br /><br />
+      <a href="https://musicalbird.replit.app"><button>
+        HOME
+        </button></a>
+    </ol>
+    <script>if (typeof window.player.loop == 'boolean')
+{
+    window.player.loop = true;
+}
+else
+{
+    myAudio.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+    }, false);
+}</script>
+  </body>
+</html>

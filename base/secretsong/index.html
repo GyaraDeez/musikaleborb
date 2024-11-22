@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style></style>
+    <title>Musical Bird</title>
+    <script>
+      window.player = new Audio();
+      
+    </script>
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/birdy%20musical.jpg?v=1653481358820"
+    />
+  </head>
+  <header>
+    <h1 id="top">Musical Bird</h1>
+    <link rel="stylesheet" href="/style.css" />
+  </header>
+  <img
+    src="https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/birdy%20musical.jpg?v=1653481358820"
+  />
+  <body>
+    <br><button onclick="window.player.pause()" class="otherbutton">Stop   </button><br>
+      <button class="repeat">Repeat</button>
+   </div>
+  </label>
+      <li>_
+      <button onclick="window.player.src = 'https://youtu.be/eMsUAkXf0b8'; window.player.play()">Click me to Listen!</button><br><br>
+      </li>
+      <a href="https://musicalbird.replit.app"><button>
+        HOME
+        </button></a>
+    <script>if (typeof window.player.loop == 'boolean')
+{
+    window.player.loop = true;
+}
+else
+{
+    myAudio.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+    }, false);
+}</script>
+      <script src="script.js"></script>
+    </ol>
+  </body>
+</html>
