@@ -13,7 +13,8 @@ body {
   margin: 1rem;
   font-family:sans-serif;
   line-height: 1.5;
-  background-color:#404040;
+  background-color:linear-gradient(to-bottom,white,#404040);
+  color:white;
 }
 
 /* images and videos max out at full width */
