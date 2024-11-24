@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style></style>
+    <title>Musical Bird</title>
+    
+    <script>
+      window.player = new Audio();
+      
+    </script>
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/birdy%20musical.jpg?v=1653481358820"
+    />
+  </head>
+  <header>
+    <h1 id="top">Musical Bird</h1>
+    <link rel="stylesheet" href="/style.css" />
+  </header>
+  <img
+    src="https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/birdy%20musical.jpg?v=1653481358820"
+  />
+  <body>
+    <br><button onclick="window.player.pause()" class="otherbutton">Stop   </button><br>
+      <button class="repeat">Repeat</button>
+   </div>
+  </label>
+
+    
+    <h3 id="Custom"'jp Songs</h3>
+    <ol>
+      <li>
+        IDOL (by YOASOBI)
+        <button onclick="window.player.src = 'jp/songs/idol-yoasobi.mp3'; window.player.play()">
+          Click me to Listen!
+        </button>
+        <footer>Oshi No Ko season 1 op</footer>
+      </li><br>
+      <li>
+        Fatal (by GEMN)
+        <button onclick="window.player.src = 'jp/songs/fatal-gemn.mp3'; window.player.play()">
+          Click me to Listen!
+        </button>
+        <footer>Oshi No Ko season 2 op</footer>
+      </li>
+        <br>
+        <li>
+          POP IN 2 (by B-Komachi)
+          <button onclick="window.player.src = 'jp/songs/popin-bko.mp3'; window.player.play()">
+            Click me to Listen!
+          </button>
+          <footer>featured in Oshi No Ko season 2</footer>
+        </li><br> 
+        <li>
+          Otonoke (by Creepy Nuts)
+          <button onclick="window.player.src = 'jp/songs/otonoke-cn.mp3'; window.player.play()">
+            Click me to Listen!
+          </button>
+          <footer>Dandandan op</footer>
+        </li><br>
+        <li>
+          Kaikai Kitan (by Eve)
+          <button onclick="window.player.src = 'jp/songs/kaikai-eve.mp3'; window.player.play()">
+            Click me to Listen!
+          </button>
+          <footer>JJK season 1 op</footer>
+        </li><br>
+        <li>
+          SPECIALZ (by King Gnu)
+          <button onclick="window.player.src = 'jp/songs/specialz-kg.mp3'; window.player.play()">
+            Click me to Listen!
+          </button>
+          <footer>JJK season 4 op</footer>
+        </li><br>
+        <li>
+          Keep Up (by Odetari)
+          <button onclick="window.player.src = 'jp/songs/keepup-odetari.mp3'; window.player.play()">
+            Click me to Listen!
+          </button>
+          <footer>meme song from youtube</footer>
+        </li><br>
+        <li>
+          逆夢 [Sakayume] (by King Gnu)
+          <button onclick="window.player.src = 'jp/songs/sakayume-kg.mp3'; window.player.play()">
+            Click me to Listen!
+          </button>
+          <footer>a King Gnu song</footer>
+        </li><br>
+        <li>
+          一途 [Ichizu] (by Odetari)
+          <button onclick="window.player.src = 'jp/songs/ichizu-kg.mp3'; window.player.play()">
+            Click me to Listen!
+          </button>
+          <footer>a King Gnu song x2</footer>
+        </li><br>
+    </ol>
+      <a href="../"><button>
+        HOME
+        </button></a>
+    <script>if (typeof window.player.loop == 'boolean')
+{
+    window.player.loop = true;
+}
+else
+{
+    myAudio.addEventListener('ended', function() {
+        this.currentTime = 0;
+        this.play();
+    }, false);
+}</script>
+      <script src="script.js"></script>
+    </ol>
+  </body>
+</html>
