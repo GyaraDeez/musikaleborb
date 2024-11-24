@@ -9,10 +9,10 @@ h1 {
 }
 
 /* adjust typography defaults */
-body {
+html {
   margin: 1rem;
   line-height: 1.5;
-  background-color:linear-gradient(to-bottom,white,#404040);
+  background-color:linear-gradient(white,#404040);
   color:white;
 }
 
