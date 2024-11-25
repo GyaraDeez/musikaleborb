@@ -13,14 +13,44 @@
       href="https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/birdy%20musical.jpg?v=1653481358820"
     />
   </head>
-  <header>
-    <h1 id="top">Musical Bird</h1>
-    <link rel="stylesheet" href="/style.css" />
-  </header>
-  <img
-    src="https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/birdy%20musical.jpg?v=1653481358820"
-  />
   <body>
+    <nav class="navbar"> 
+      <ul class="navbar-list"> 
+          <li class="navbar-item">
+              <a href="/">Home</a>
+          </li> 
+          <li class="navbar-item dropdown"> 
+              <a href="javascript:void(0)" class="dropdown-toggle">Songs</a> 
+              <ul class="dropdown-menu"> 
+                  <li class="dropdown-item">
+                    <a href="/among_us">Among Us</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="/jp">Japanese</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="/indo">Indonesian</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="/rap">Rap</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="/customsong">Uncategorized</a>
+                  </li>
+              </ul>
+          </li>
+          <li class="navbar-item">
+              <a href="/request">Song Request (NULL)</a>
+          </li>
+      </ul>
+    </nav>
+    <header>
+      <h1 id="top">Musical Bird</h1>
+      <link rel="stylesheet" href="/style.css" />
+    </header>
+    <img
+      src="https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/birdy%20musical.jpg?v=1653481358820"
+    />
     <br><button onclick="window.player.pause()" class="otherbutton">Stop   </button><br>
       <button class="repeat">Repeat</button>
    </div>
