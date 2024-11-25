@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style></style>
+    <title>Musical Bird</title>
+    <meta name="theme-color" content="#03febc">
+    <meta name="description" content="The bird that gives you music" id="color">
+    <script>
+      window.player = new Audio();
+
+    </script>
+
+    <link
+      rel="icon"
+      href="https://cdn.glitch.global/f588e1b4-da55-4c30-8f03-14d86c03703f/birdy%20musical.jpg?v=1653481358820"
+    />
+    
+  </head>
+  
+  <body>
+    <nav class="navbar"> 
+      <ul class="navbar-list"> 
+          <li class="navbar-item">
+              <a href="/">Home</a>
+          </li> 
+          <li class="navbar-item dropdown"> 
+              <a href="javascript:void(0)" class="dropdown-toggle">Songs</a> 
+              <ul class="dropdown-menu"> 
+                  <li class="dropdown-item">
+                    <a href="/among_us">Among Us</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="/fonk">Funk</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="/jp">Japanese</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="/indo">Indonesian</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="/rap">Rap</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="/customsong">Uncategorized</a>
+                  </li>
+              </ul>
+          </li>
+          <li class="navbar-item">
+              <a href="/request">Song Request (NULL)</a>
+          </li>
+          <li class="navbar-item">
+              <a href="/history">History</a>
+          </li>
+      </ul>
+    </nav>
+    
+    <header>
+      <h1 id="top">Musical Bird</h1>
+      <link rel="stylesheet" href="/style.css" />
+    </header>
+    <h3 id="funk">Funk songs</h3>
+    <ol>
+        <li>
+          Eu Sentu Gabu (by PXLWYSE)
+          <button onclick="window.player.src = 'fonk/songs/ESG-px.mp3'; window.player.play()">
+            Click me to Listen!
+          </button>
+        </li><br>
+        <li>
+            FUNK DO BOUNCE (by Ariis)
+            <button onclick="window.player.src = 'fonk/songs/FDB-Ar.mp3'; window.player.play()">
+             Click me to Listen!
+            </button>
+        </li><br>
+        <li>
+            X-SLIDE (by 2KE)
+            <button onclick="window.player.src = 'fonk/songs/XSL-2k.mp3'; window.player.play()">
+             Click me to Listen!
+            </button>
+            <footer>enderman tryna get steve to look at him</footer>
+        </li><br>
+        <li>
+            VAPO NO SETOR (by DJ ANXVAR)
+            <button onclick="window.player.src = 'fonk/songs/VNS-an.mp3'; window.player.play()">
+             Click me to Listen!
+            </button>
+        </li><br>
+    </body>
+</html>
